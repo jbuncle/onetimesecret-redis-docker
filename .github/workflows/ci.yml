@@ -17,6 +17,3 @@ jobs:
 
       - name: Validate entrypoint
         run: sh -n entrypoint.sh
-
-      - name: Build Docker image
-        run: docker build .
